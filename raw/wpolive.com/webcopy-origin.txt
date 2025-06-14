@@ -1,0 +1,500 @@
+Uri: https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Playfair+Display:400,700
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\css
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVc.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\s\opensans\v43\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsg-1x4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVc.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\s\opensans\v43\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsgH1x4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\s\opensans\v43\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsiH0B4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/opensans/v43/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\s\opensans\v43\memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVc.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/playfairdisplay/v39/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtY.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\s\playfairdisplay\v39\nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKdFvXDXbtY.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/playfairdisplay/v39/nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtY.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\s\playfairdisplay\v39\nuFvD-vYSZviVYUb_rj3ij__anPXJzDwcbmjWBN2PKeiunDXbtY.ttf
+Content Type: font/ttf
+
+Uri: https://wpolive.com/tf/php/barristar/about.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\about.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/animate.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\animate.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/bootstrap.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\bootstrap.min.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/flaticon.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\flaticon.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/font-awesome.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\font-awesome.min.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/jquery-isotope.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\jquery-isotope.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/jquery.fancybox.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\jquery.fancybox.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/magnific-popup.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\magnific-popup.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/metisMenu.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\metisMenu.min.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/odometer-theme-default.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\odometer-theme-default.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/owl.carousel.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\owl.carousel.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/responsive.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\responsive.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/slick-theme.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\slick-theme.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/slick.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\slick.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/slicknav.min.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\slicknav.min.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/css/style.css
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\css\style.css
+Content Type: text/css
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/Flaticon.eot
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\Flaticon.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/Flaticon.eot?
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\Flaticon-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/Flaticon.svg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\Flaticon.svg
+Content Type: image/svg+xml
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/Flaticon.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\Flaticon.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/Flaticon.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\Flaticon.woff
+Content Type: application/font-woff
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/fontawesome-webfont.eot?
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\fontawesome-webfont-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/fontawesome-webfont.eot?v=4.6.3
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\fontawesome-webfont.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/fontawesome-webfont.svg?v=4.6.3
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\fontawesome-webfont.svg
+Content Type: image/svg+xml
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/fontawesome-webfont.ttf?v=4.6.3
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\fontawesome-webfont.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/fontawesome-webfont.woff2?v=4.6.3
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\fontawesome-webfont.woff2
+Content Type: font/woff2
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/fontawesome-webfont.woff?v=4.6.3
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\fontawesome-webfont.woff
+Content Type: application/font-woff
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/slick.eot
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\slick.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/slick.eot?
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\slick-1.eot
+Content Type: application/vnd.ms-fontobject
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/slick.svg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\slick.svg
+Content Type: image/svg+xml
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/slick.ttf
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\slick.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://wpolive.com/tf/php/barristar/assets/fonts/slick.woff
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\fonts\slick.woff
+Content Type: application/font-woff
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/about/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\about\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/about/1.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\about\1.png
+Content Type: image/png
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/about/2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\about\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/ajax-loader.gif
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\ajax-loader.gif
+Content Type: image/gif
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/Attorneys-single/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\Attorneys-single\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog-details/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog-details\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog-details/author.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog-details\author.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog-details/comment/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog-details\comment\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog-details/comment/2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog-details\comment\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog-page/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog-page\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog-page/2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog-page\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog-page/3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog-page\3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog-page/4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog-page\4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog-page/5.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog-page\5.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog-page/6.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog-page\6.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog-page/7.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog-page\7.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog/2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/blog/3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\blog\3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/breadcumb/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\breadcumb\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/case-studies-details/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\case-studies-details\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/case-studies-details/2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\case-studies-details\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/case-studies-details/3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\case-studies-details\3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/case-studies-details/4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\case-studies-details\4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/contact/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\contact\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/counter/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\counter\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/counter/2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\counter\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/expert/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\expert\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/expert/2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\expert\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/expert/3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\expert\3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/expert/4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\expert\4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/expert/5.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\expert\5.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/expert/6.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\expert\6.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/fancybox/blank.gif
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\fancybox\blank.gif
+Content Type: image/gif
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/fancybox/fancybox_loading.gif
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\fancybox\fancybox_loading.gif
+Content Type: image/gif
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/fancybox/fancybox_loading@2x.gif
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\fancybox\fancybox_loading@2x.gif
+Content Type: image/gif
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/fancybox/fancybox_overlay.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\fancybox\fancybox_overlay.png
+Content Type: image/png
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/fancybox/fancybox_sprite.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\fancybox\fancybox_sprite.png
+Content Type: image/png
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/fancybox/fancybox_sprite@2x.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\fancybox\fancybox_sprite@2x.png
+Content Type: image/png
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/instragram/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\instragram\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/instragram/2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\instragram\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/instragram/3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\instragram\3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/instragram/4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\instragram\4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/instragram/5.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\instragram\5.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/instragram/6.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\instragram\6.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/logo/logo.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\logo\logo.png
+Content Type: image/png
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/practice/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\practice\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/practice/2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\practice\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/practice/3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\practice\3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/practice/4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\practice\4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/select-icon.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\select-icon.png
+Content Type: image/png
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/services/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\services\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/slider/slide-1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\slider\slide-1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/slider/slide-2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\slider\slide-2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/slider/slide-4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\slider\slide-4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/slider/slide-5.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\slider\slide-5.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/studies/1.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\studies\1.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/studies/2.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\studies\2.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/studies/3.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\studies\3.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/studies/4.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\studies\4.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/studies/5.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\studies\5.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/studies/6.jpg
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\studies\6.jpg
+Content Type: image/jpeg
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/testimonial/1.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\testimonial\1.png
+Content Type: image/png
+
+Uri: https://wpolive.com/tf/php/barristar/assets/images/testimonial/2.png
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\images\testimonial\2.png
+Content Type: image/png
+
+Uri: https://wpolive.com/tf/php/barristar/assets/js/bootstrap.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\js\bootstrap.min.js
+Content Type: application/x-javascript
+
+Uri: https://wpolive.com/tf/php/barristar/assets/js/jquery-plugin-collection.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\js\jquery-plugin-collection.js
+Content Type: application/x-javascript
+
+Uri: https://wpolive.com/tf/php/barristar/assets/js/jquery.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\js\jquery.min.js
+Content Type: application/x-javascript
+
+Uri: https://wpolive.com/tf/php/barristar/assets/js/jquery.slicknav.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\js\jquery.slicknav.min.js
+Content Type: application/x-javascript
+
+Uri: https://wpolive.com/tf/php/barristar/assets/js/metisMenu.min.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\js\metisMenu.min.js
+Content Type: application/x-javascript
+
+Uri: https://wpolive.com/tf/php/barristar/assets/js/script.js
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\assets\js\script.js
+Content Type: application/x-javascript
+
+Uri: https://wpolive.com/tf/php/barristar/Attorneys-single.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\Attorneys-single.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/Attorneys.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\Attorneys.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/blog-details.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\blog-details.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/blog-fullwidth.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\blog-fullwidth.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/blog-right.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\blog-right.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/blog-single-full-width.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\blog-single-full-width.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/blog-single-left.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\blog-single-left.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/blog.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\blog.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/case-stadies-details.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\case-stadies-details.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/case-stadies.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\case-stadies.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/contact.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\contact.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/index-2.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\index-2.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/index-3.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\index-3.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/index.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\index.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/practice-details.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\practice-details.php.html
+Content Type: text/html
+
+Uri: https://wpolive.com/tf/php/barristar/practice.php
+File Name: C:\Users\NEPHYGTDKINGZ\work\Downloaded templates\lawfirm\wpolive.com\tf\php\barristar\practice.php.html
+Content Type: text/html
+
