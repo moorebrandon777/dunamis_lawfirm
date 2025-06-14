@@ -126,9 +126,11 @@ def attorneys_list(request):
         ("Our Legal Team", request.path)
     ])
 
+    breadcrumbs_json = json.dumps(breadcrumbs)
+
     context = {
         "attorneys": attorneys,
-        "breadcrumbs": breadcrumbs
+        "breadcrumbs_data_json": breadcrumbs_json
     }
 
     return render(request, "frontend/attorneys/list.html", context)
@@ -218,6 +220,7 @@ def services_list(request):
         ("Services", reverse("frontend:services_list"))
     ])
 
+    breadcrumbs_json = json.dumps(breadcrumbs)
     context = {
         'services': services,
         'meta': {
@@ -225,8 +228,8 @@ def services_list(request):
             'description': 'Explore our expert legal services ranging from family law to corporate defense.',
             'keywords': 'legal services, family law, corporate law, criminal defense'
         },
-        'structured_data': structured_data,
-        'breadcrumbs': breadcrumbs
+        'structured_data': json.dumps(structured_data),
+        'breadcrumbs_data_json': breadcrumbs_json
     }
 
     return render(request, 'frontend/services_list.html', context)
@@ -261,8 +264,8 @@ def service_detail(request, slug):
             "description": service.seo_description or service.description[:160],
             "keywords": service.seo_keywords or ''
         },
-        "structured_data": structured_data,
-        "breadcrumbs": breadcrumbs
+        "structured_data": json.dumps(structured_data),
+        "breadcrumbs": json.dumps(breadcrumbs)
     }
 
     return render(request, "frontend/service_detail.html", context)
@@ -318,7 +321,7 @@ def contact(request):
             'description': 'Get in touch with Dunamis Law Firm. Call, email, or visit our NYC office to schedule a consultation with an experienced attorney.',
             'keywords': 'contact Dunamis Law Firm, schedule consultation, NYC law firm, Rurl Amos'
         },
-        'structured_data': [structured_data, breadcrumbs],
+        'structured_data': json.dumps([structured_data, breadcrumbs]),
         'form':form,
         'scroll_to_contact_area': scroll_to_contact_area if 'scroll_to_contact_area' in locals() else False,
     }
