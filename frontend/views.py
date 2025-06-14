@@ -2,6 +2,8 @@ import json
 from django.shortcuts import get_object_or_404, render, redirect
 from django.urls import reverse
 from django.contrib import messages
+from django.views.decorators.http import require_POST
+from django.http import HttpResponseRedirect
 
 from .models import Attorney, Service
 from .utils import build_breadcrumbs
@@ -140,6 +142,8 @@ def attorneys_list(request):
 def attorney_detail(request, slug):
     attorney = get_object_or_404(Attorney, slug=slug)
 
+    form = ContactForm()
+
     person_data = {
         "@context": "https://schema.org",
         "@type": "Person",
@@ -186,7 +190,8 @@ def attorney_detail(request, slug):
             'title': attorney.meta_title or attorney.name,
             'description': attorney.meta_description or (attorney.bio[:160] if attorney.bio else ''),
         },
-        'structured_data_json': json.dumps(structured_data)
+        'structured_data_json': json.dumps(structured_data),
+        'form':form,
     }
 
     return render(request, 'frontend/attorneys/detail.html', context)
@@ -327,3 +332,77 @@ def contact(request):
     }
     return render(request, 'frontend/contact.html', context)
 
+
+@require_POST
+def contact_attorney(request):
+    form = ContactForm(request.POST)
+    redirect_url = request.POST.get('next', '/')
+    slug = request.POST.get('attorney_slug')
+    attorney = get_object_or_404(Attorney, slug=slug)
+
+    if form.is_valid():
+        name = form.cleaned_data['name']
+        email = form.cleaned_data['email']
+        phone = form.cleaned_data['phone']
+        address = form.cleaned_data['address']
+        message = form.cleaned_data['message']
+
+        # Email sending logic
+        subject = f"Email From {name}"
+        template = "notification/customer_care_email.html"
+        context = {
+            "name": name,
+            'email': email,
+            'phone': phone,
+            'address': address,
+            'message': message
+        }
+        receiver = email
+        send_email_async(subject, template, context, receiver)
+
+
+        messages.success(request, 'Message sent successfully. We will be in touch shortly.')
+        return HttpResponseRedirect(redirect_url)
+
+    else:
+        messages.error(request, 'There was an error with your submission. Please correct the error below and try again.')
+        context = {
+            'attorney': attorney,
+            'form': form,
+            'scroll_to_contact_area': True,
+        }
+        return render(request, 'frontend/attorneys/detail.html', context)
+    
+# @require_POST
+# def contact_attorney(request):
+#     form = ContactForm(request.POST)
+
+#     # Get return URL to redirect after success/failure
+#     redirect_url = request.POST.get('next', '/')
+
+#     if form.is_valid():
+#         name = form.cleaned_data['name']
+#         email = form.cleaned_data['email']
+#         phone = form.cleaned_data['phone']
+#         address = form.cleaned_data['address']
+#         message = form.cleaned_data['message']
+
+#         # Email sending logic
+#         subject = f"Email From {name}"
+#         template = "notification/customer_care_email.html"
+#         context = {
+#             "name": name,
+#             'email': email,
+#             'phone': phone,
+#             'address': address,
+#             'message': message
+#         }
+#         receiver = email
+#         send_email_async(subject, template, context, receiver)
+
+#         messages.success(request, 'Message sent successfully. We will be in touch shortly.')
+
+#     else:
+#         messages.error(request, 'There was an error with your submission. Please check and try again.')
+
+#     return HttpResponseRedirect(redirect_url)

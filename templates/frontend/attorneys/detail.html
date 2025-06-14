@@ -37,6 +37,36 @@
       margin-top: 5px;
       margin-left: 15px;
     }
+    input,
+    textarea {
+        color: black !important;
+    }
+</style>
+
+<style>
+    #id_captcha_1{
+        font-size: 20px;
+        color: #000 !important;
+    }
+    .errorlist li{
+        color: #fff !important;
+        margin-top: 15px;
+        background: rgb(66, 5, 5) !important;
+        padding: 10px 10px !important;
+    }
+    .alert-success{
+        background: rgb(4, 85, 31) !important;
+        border-color: rgb(4, 85, 31) !important;
+        color: #fff;
+    }
+    .alert-warning{
+        background: rgb(66, 5, 5) !important;
+        border-color: rgb(66, 5, 5) !important;
+        color: #fff;
+    }
+    /* .breadcumb-area{
+        height: 100px !important;
+    } */
 </style>
 
 <!-- .breadcumb-area start -->
@@ -161,44 +191,92 @@
                 </div>
                 {% endif %}
                 
-                <div class="col-lg-9 col-l">
-                    <div class="contact-area contact-area-2">
-                        <h2>Contact Me</h2>
-                        <div class="contact-form">
-                            <form method="post" class="contact-validation-active" id="contact-form">
-                                <div class="half-col">
-                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
-                                </div>
-                                <div class="half-col">
-                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
-                                </div>
-                                <div class="half-col">
-                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
-                                </div>
-                                <div class="half-col">
-                                    <input type="text" name="address" id="address" class="form-control" placeholder="Address">
-                                </div>
+                <section id="contact-form-me">
+                    <div class="col-lg-9 col-l">
+                        <div class="contact-area contact-area-2">
+                            <h2>Contact Me</h2>
+                        
+                            {% if messages %}
                                 <div>
-                                    <textarea class="form-control" name="note" id="note" placeholder="Case Description..."></textarea>
+                                    {% for message in messages %}
+                                        <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                            {{ message }}
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                        </div>
+                                    {% endfor %}
                                 </div>
-                                <div class="submit-btn-wrapper">
-                                    <button type="submit" class="theme-btn-s3">Appointment</button>
-                                    <div id="loader">
-                                        <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+                            {% endif %}
+
+                            {% if form.errors %}
+                                {% for field, errors in form.errors.items %}
+                                    {% for error in errors %}
+                                        <div class="alert alert-warning alert-dismissible fade show text-white" role="alert">
+                                            {{ field }}: {{ error }}
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                        </div>
+                                    {% endfor %}
+                                {% endfor %}
+                            {% endif %}
+    
+                            
+                            <div class="contact-form">
+                                <form method="post" action="{% url 'frontend:contact_attorney' %}" >
+                                    {% csrf_token %}
+                                    <div class="half-col">
+                                        {{ form.name }}
+                                        {{ form.name.errors }}
                                     </div>
-                                </div>
-                                <div class="clearfix error-handling-messages">
-                                    <div id="success">Thank you</div>
-                                    <div id="error"> Error occurred while sending email. Please try again later. </div>
-                                </div>
-                            </form>
+                                
+                                    <div class="half-col">
+                                        {{ form.email }}
+                                        {{ form.email.errors }}
+                                    </div>
+                                
+                                    <div class="half-col">
+                                        {{ form.phone }}
+                                        {{ form.phone.errors }}
+                                    </div>
+                                
+                                    <div class="half-col">
+                                        {{ form.address }}
+                                        {{ form.address.errors }}
+                                    </div>
+                                
+                                    <div>
+                                        {{ form.message }}
+                                        {{ form.message.errors }}
+                                    </div>
+                                    <div>
+                                        {{ form.captcha }}
+                                        {{ form.captcha.errors }}
+                                    </div>
+
+                                    <input type="hidden" name="next" value="{{ request.path }}">
+                                    <input type="hidden" name="attorney_slug" value="{{ attorney.slug }}">
+
+                                    <div class="submit-btn-wrapper">
+                                        <button type="submit" class="theme-btn-s3">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </div>
+                </section>
             </div>
         </div>
     </div>
 </div>
 <!-- Attorneys-content-section end -->
+
+<!-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      {% if scroll_to_contact_area %}
+        const contactSection = document.getElementById("contact-form-me");
+        if (contactSection) {
+          contactSection.scrollIntoView({ behavior: "smooth" });
+        }
+      {% endif %}
+    });
+</script> -->
 
 {% endblock  %}
