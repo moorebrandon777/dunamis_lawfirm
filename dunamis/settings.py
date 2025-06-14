@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     
     # myapps
     'frontend',
+    'notification'
 ]
 
 SITE_ID = 1
@@ -162,3 +163,23 @@ EMAIL_USE_TLS = False  # Set to True if using TLS port 587
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')  # Your Zoho email address
 EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASSWORD')
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
+
+
+LOGGING = {
+    'version': 1,
+    'disable_existing_loggers': False,
+
+    'handlers': {
+        'console': {
+            'class': 'logging.StreamHandler',
+        },
+    },
+
+    'loggers': {
+        'notification.email_utils': {
+            'handlers': ['console'],
+            'level': 'INFO',
+            'propagate': False,
+        },
+    },
+}

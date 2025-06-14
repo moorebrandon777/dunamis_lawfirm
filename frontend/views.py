@@ -6,6 +6,7 @@ from django.contrib import messages
 from .models import Attorney, Service
 from .utils import build_breadcrumbs
 from .forms import ContactForm
+from notification.async_email import send_email_async
 
 def home(request):
     # Structured data for homepage (LegalService)
@@ -286,7 +287,19 @@ def contact(request):
         address = form.cleaned_data['address']
         message = form.cleaned_data['message']
 
-        print('form valid')
+        # send email
+        subject = f"Email From {name}"
+        template = "notification/customer_care_email.html"
+        context = {
+            "name": name,
+            'email':email,
+            'phone': phone,
+            'address': address,
+            'message': message
+        }
+        receiver = email
+        send_email_async(subject, template, context, receiver)
+
         messages.success(request, 'Form is submitted successfuly, we will get back to you as soon as possible.')
         url = reverse('frontend:contact')
         return redirect(f"{url}#contact-area-me")
