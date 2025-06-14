@@ -8,6 +8,22 @@ from .utils import build_breadcrumbs
 from .forms import ContactForm
 from notification.async_email import send_email_async
 
+
+def get_legal_service_schema(request):
+    return {
+        "@type": "LegalService",
+        "name": "Dunamis Law Firm",
+        "url": request.build_absolute_uri('/'),
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "950 3rd Ave",
+            "addressLocality": "New York",
+            "addressRegion": "NY",
+            "postalCode": "10022",
+            "addressCountry": "US"
+        }
+    }
+
 def home(request):
     # Structured data for homepage (LegalService)
     structured_data = {
@@ -24,7 +40,7 @@ def home(request):
             "addressLocality": "New York",
             "addressRegion": "NY",
             "postalCode": "10022",
-            "addressCountry": "USA"
+            "addressCountry": "US"
         },
         "telephone": "+1-516-286-3799",
         "email": "contact@dunamislawfirm.com",
@@ -67,7 +83,7 @@ def about(request):
             "addressLocality": "New York",
             "addressRegion": "NY",
             "postalCode": "10022",
-            "addressCountry": "USA"
+            "addressCountry": "US"
         },
         "telephone": "+1-516-286-3799",
         "email": "contact@dunamislawfirm.com",
@@ -102,10 +118,6 @@ def robots_txt(request):
     return render(request, 'frontend/robots.txt', content_type='text/plain')
 
 
-from django.urls import reverse
-from .models import Attorney
-from .utils import build_breadcrumbs
-
 def attorneys_list(request):
     attorneys = Attorney.objects.all()
 
@@ -139,7 +151,15 @@ def attorney_detail(request, slug):
         "worksFor": {
             "@type": "LegalService",
             "name": "Dunamis Law Firm",
-            "url": request.build_absolute_uri('/')
+            "url": request.build_absolute_uri('/'),
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "950 3rd Ave",
+                "addressLocality": "New York",
+                "addressRegion": "NY",
+                "postalCode": "10022",
+                "addressCountry": "US"
+            }
         }
     }
 
@@ -176,11 +196,7 @@ def services_list(request):
     structured_data = {
         "@context": "https://schema.org",
         "@type": "Service",
-        "provider": {
-            "@type": "LegalService",
-            "name": "Dunamis Law Firm",
-            "url": request.build_absolute_uri('/')
-        },
+        "provider": get_legal_service_schema(request),
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "Legal Services",
@@ -233,15 +249,8 @@ def service_detail(request, slug):
         "@type": "Service",
         "name": service.name,
         "description": service.description[:160],
-        "provider": {
-            "@type": "LegalService",
-            "name": "Dunamis Law Firm",
-            "url": request.build_absolute_uri('/')
-        },
+        "provider": get_legal_service_schema(request),
         "url": request.build_absolute_uri(),
-        # Optional:
-        # "areaServed": service.area_served,
-        # "serviceType": service.service_type,
     }
 
     context = {
@@ -266,11 +275,7 @@ def contact(request):
         "name": "Contact Dunamis Law Firm",
         "url": request.build_absolute_uri(),
         "description": "Contact Dunamis Law Firm for expert legal representation and consultations.",
-        "publisher": {
-            "@type": "LegalService",
-            "name": "Dunamis Law Firm",
-            "url": request.build_absolute_uri('/')
-        }
+        "publisher": get_legal_service_schema(request)
     }
 
     breadcrumbs = build_breadcrumbs(request, [
