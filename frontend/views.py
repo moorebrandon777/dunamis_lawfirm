@@ -31,7 +31,7 @@ def home(request):
         "@type": "LegalService",
         "name": "Dunamis Law Firm",
         "url": request.build_absolute_uri(),
-        "logo": request.build_absolute_uri('/static/frontend/images/logo.png'),
+        "logo": request.build_absolute_uri('/static/frontend/images/logo.svg'),
         "image": request.build_absolute_uri('/static/frontend/images/office.jpg'),
         "description": "Trusted legal services in family, criminal, and corporate law. Book a free consultation today.",
         "address": {
@@ -74,7 +74,7 @@ def about(request):
         "@type": "LegalService",
         "name": "Dunamis Law Firm",
         "url": request.build_absolute_uri(),
-        "logo": request.build_absolute_uri('/static/frontend/images/logo.png'),
+        "logo": request.build_absolute_uri('/static/frontend/images/logo.svg'),
         "image": request.build_absolute_uri('/static/frontend/images/office.jpg'),
         "description": "Dunamis Law Firm offers expert legal services in family law, criminal defense, and corporate law.",
         "address": {

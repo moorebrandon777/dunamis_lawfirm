@@ -27,9 +27,12 @@
       <div class="row">
         <div class="col-lg-3 col-md-10 col-sm-10 col-8">
           <div class="logo">
-            <a href="{% url 'frontend:home' %}"
+            <a href="{% url 'frontend:home' %}" >
+              <img src="{% static 'frontend/images/logo.svg' %}" alt="logo" class="mt-3"/>
+            </a>
+            <!-- <a href="{% url 'frontend:home' %}"
               ><img src="{% static 'frontend/assets/images/logo/logo.png' %}" alt=""
-            /></a>
+            /></a> -->
           </div>
         </div>
         <div class="col-lg-8 d-none d-lg-block">
