@@ -1,0 +1,68 @@
+{% load static %}
+<!-- start of footer-section -->
+<div class="footer-area">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-logo">
+                        <a href="index.php.html"><img src="{% static 'frontend/assets/images/logo/logo.png' %}" alt=""></a>
+                    </div>
+                    <p>At Dunamis Law Firm, we deliver clear, results driven legal counsel rooted in experience, integrity, and a steadfast commitment to justice.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-link">
+                        <h3>Quick Link</h3>
+                        <ul>
+                            <li><a href="{% url 'frontend:home' %}">Home</a></li>
+                            <li><a href="{% url 'frontend:services_list' %}">Practice Area</a></li>
+                            <li><a href="{% url 'frontend:attorneys_list' %}">Our Team</a></li>
+                            <li><a href="{% url 'frontend:about' %}">About</a></li>
+                            <li><a href="{% url 'frontend:contact' %}">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-practice bd-0">
+                        <h3>Practice Area</h3>
+                        <ul>
+                            {% for service in footer_services %}
+                            <li><a href="{{ service.get_absolute_url }}">{{ service.name }}</a></li>
+                            {% endfor %}
+                            <!-- <li><a href="practice-details.php.html">Criminal Law</a></li>
+                            <li><a href="practice-details.php.html">Parsonal Injury</a></li>
+                            <li><a href="practice-details.php.html">Real Estate Law</a></li>
+                            <li><a href="practice-details.php.html">Business Law</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-contact">
+                        <h3>Contact Us</h3>
+                        <ul>
+                            <li>Head Office Address</li>
+                            <li>950 3rd Ave New York, NY 10022</li>
+                            <li>United States</li>
+                            <li>Phone: +1 516-2863799</li>
+                            <li>Email: contact@dunamislawfirm.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-content">
+                <div class="row">
+                    <div class="col-lg-6 col-12">
+                        <span>Privacy Policy | &copy; {% now "Y" %}  Dunamis Law Firm. All rights reserved</span>
+                        <!-- <span>Privacy Policy | © {{ now|date:"Y" }}  Dunamis Law Firm. All rights reserved</span> -->
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .footer-area end --> 

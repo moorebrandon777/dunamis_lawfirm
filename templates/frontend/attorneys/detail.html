@@ -1,0 +1,204 @@
+{% extends "../base.html" %}
+{% load static %}
+
+
+{% block title %}{{ meta.title }}{% endblock %}
+{% block meta_description %}{{ meta.description }}{% endblock %}
+{% block meta_keywords %}new york law firm, family law, criminal defense, legal services, barrister, {{attorney.name}} {% endblock %}
+
+
+{% block head %}
+  {{ block.super }}
+  {% if structured_data_json %}
+  <script type="application/ld+json">
+    {{ structured_data_json|safe }}
+  </script>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+
+<style>
+    .edu-block {
+      margin-bottom: 30px;
+    }
+    .school-name {
+      font-weight: bold;
+      font-size: 1.1em;
+    }
+    .location {
+      font-style: italic;
+      color: #555;
+    }
+    .degree {
+      font-style: italic;
+    }
+    .details {
+      margin-top: 5px;
+      margin-left: 15px;
+    }
+</style>
+
+<!-- .breadcumb-area start -->
+<div class="breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcumb-wrap">
+                    <h2>{{attorney.name}} Details</h2>
+                    <ul>
+                        <li><a href="{% url 'frontend:home' %}l"><i class="icon-36"></i> Home</a></li>
+                        <li>{{attorney.name}}</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+<!-- .breadcumb-area end -->
+
+
+<!-- Attorneys-content-section start -->
+<div class="Attorneys-content-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <!-- .Attorneys area start -->
+                <div class="Attorneys-area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-l">
+                                <div class="Attorneys-item">
+                                    <div class="Attorneys-img">
+                                        <img src="{% static 'frontend/assets/images/Attorneys-single/1.jpg' %}" alt="">
+                                    </div>
+                                    <div class="Attorneys-text">
+                                        <h2>{{attorney.name}}</h2>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="Attorneys-info">
+                                    <div class="Attorneys-content">
+                                        <h3>Important Information</h3>
+                                    </div>
+                                    <div class="info-outer">
+                                        <ul class="info">
+                                            <li><span>Positon: </span> {{ attorney.position}}</li>
+                                            <li><span>Practice Area: </span>{{attorney.practice_area}}</li>
+                                            <!-- <li><span>Experience: </span>{{attorney.experience}}</li> -->
+                                            <li><span>Address: </span>{{attorney.address}}</li>
+                                            <li><span>Phone: </span>{{attorney.phone}}</li>
+                                            <li><span>Email: </span>{{attorney.email}}</li>
+                                            <!-- <li><span>Fax: </span>6985231456</li> -->
+                                        </ul>
+                                        <!-- <ul class="social">
+                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                        </ul> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- .Attorneys area end -->
+                <div class="exrienense-section">
+                    <h2>Biography</h2>
+                    <p>{{attorney.bio|linebreaks }}</p>
+                </div>
+                {% if attorney.name == 'Rurl Amos' %}
+                <div class="education-section">
+                    <h2>Education</h2>
+                    
+                    <div class="edu-block">
+                        <div class="school-name">Brooklyn Technical High School</div>
+                        <div class="location">Brooklyn, NY</div>
+                        <div class="degree">Advanced Regents Diploma with Honors</div>
+                        <div class="details">
+                          - Focus: Law & Society Track<br>
+                          - Activities: Debate Team Captain, Student Government, Mock Trial Team<br>
+                          <!-- - Graduated: Valedictorian | Class of [Insert Year] -->
+                        </div>
+                      </div>
+                    
+                      <div class="edu-block">
+                        <div class="school-name">Princeton University</div>
+                        <div class="location">Princeton, NJ</div>
+                        <div class="degree">Bachelor of Arts in Political Science</div>
+                        <div class="details">
+                          - Concentration: International Relations<br>
+                          - Honors: Dean's List (4 years), Phi Beta Kappa<br>
+                          - Activities: Princeton Debate Panel, Immigrant Rights Coalition<br>
+                          <!-- - Graduated: With Honors | Class of [Insert Year] -->
+                        </div>
+                      </div>
+                    
+                      <div class="edu-block">
+                        <div class="school-name">Yale Law School</div>
+                        <div class="location">New Haven, CT</div>
+                        <div class="degree">Juris Doctor (J.D.) - Magna Cum Laude</div>
+                        <div class="details">
+                          - Editor, <em>Yale Law Journal</em><br>
+                          - Lead Advocate, Yale Criminal Justice Clinic<br>
+                          - Recipient, Thomas Swan Legal Advocacy Award<br>
+                          <!-- - Graduated: Class of [Insert Year] -->
+                        </div>
+                      </div>
+                    
+                      <div class="edu-block">
+                        <div class="school-name">Judicial Clerkship</div>
+                        <div class="location">U.S. Court of Appeals for the Second Circuit</div>
+                        <div class="degree">Clerk to the Honorable Judge Livia Mercado</div>
+                        <div class="details">
+                          - Focus: Appellate Criminal Defense, Constitutional Law<br>
+                          <!-- - Term: [Insert Year–Year] -->
+                        </div>
+                      </div>
+                   
+                </div>
+                {% endif %}
+                
+                <div class="col-lg-9 col-l">
+                    <div class="contact-area contact-area-2">
+                        <h2>Contact Me</h2>
+                        <div class="contact-form">
+                            <form method="post" class="contact-validation-active" id="contact-form">
+                                <div class="half-col">
+                                    <input type="text" name="name" id="name" class="form-control" placeholder="Your Name">
+                                </div>
+                                <div class="half-col">
+                                    <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+                                </div>
+                                <div class="half-col">
+                                    <input type="text" name="phone" id="phone" class="form-control" placeholder="Your Phone">
+                                </div>
+                                <div class="half-col">
+                                    <input type="text" name="address" id="address" class="form-control" placeholder="Address">
+                                </div>
+                                <div>
+                                    <textarea class="form-control" name="note" id="note" placeholder="Case Description..."></textarea>
+                                </div>
+                                <div class="submit-btn-wrapper">
+                                    <button type="submit" class="theme-btn-s3">Appointment</button>
+                                    <div id="loader">
+                                        <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+                                    </div>
+                                </div>
+                                <div class="clearfix error-handling-messages">
+                                    <div id="success">Thank you</div>
+                                    <div id="error"> Error occurred while sending email. Please try again later. </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Attorneys-content-section end -->
+
+{% endblock  %}

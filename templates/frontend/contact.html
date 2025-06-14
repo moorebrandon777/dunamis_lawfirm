@@ -1,0 +1,165 @@
+{% extends "./base.html" %}
+{% load static %}
+
+{% block title %}{{ meta.title }}{% endblock %}
+{% block meta_description %}{{ meta.description }}{% endblock %}
+{% block meta_keywords %}{{ meta.keywords }}{% endblock %}
+
+{% block head %}
+  {{ block.super }}
+  {% if structured_data %}
+    <script type="application/ld+json">
+      {{ structured_data|safe }}
+    </script>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+
+<style>
+    .errorlist li{
+        color: #fff !important;
+        margin-top: 15px;
+        background: rgb(66, 5, 5) !important;
+        padding: 10px 10px !important;
+    }
+    .alert-success{
+        background: rgb(4, 85, 31) !important;
+        border-color: rgb(4, 85, 31) !important;
+        color: #fff;
+    }
+    .alert-warning{
+        background: rgb(66, 5, 5) !important;
+        border-color: rgb(66, 5, 5) !important;
+        color: #fff;
+    }
+    /* .breadcumb-area{
+        height: 100px !important;
+    } */
+</style>
+<!-- Breadcrumb -->
+<div class="breadcumb-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="breadcumb-wrap">
+          <h2>Contact Us</h2>
+          <ul>
+            <li><a href="{% url 'frontend:home' %}"><i class="icon-36"></i> Home</a></li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<section class="contact-area section-padding mt-0" id="contact-area-me">
+    <div class="contact-page-area section-padding">
+        <div class="container">
+             <div class="row">
+                 <div class="col-lg-5 col-md-12">
+                     <div class="contact-page-item">
+                         <h2 class="text-white">Our Contacts</h2>
+                         <p class="text-white">Contrary to popular belief, legal guidance isn't only necessary during times of crisis. Proactive support from a skilled attorney helps protect your rights, clarify your options, and ensure confident decision making at every stage. At Dunamis Law Firm, we deliver clear, results driven legal counsel rooted in experience, integrity, and a steadfast commitment to justice.</p>
+
+                         <div class="adress text-white" >
+                             <h3 class="text-white">Address</h3>
+                             <span class="text-white">950 3rd Ave New York, NY 10022</span>
+                         </div>
+                         <div class="phone ">
+                             <h3 class="text-white">Phone</h3>
+                             <span class="text-white">+1 516-2863799</span>
+                         </div>
+                         <div class="email">
+                             <h3 class="text-white">Email</h3>
+                             <span class="text-white">contact@dunamislawfirm.com</span>
+                         </div>
+                     </div>
+                 </div>
+                 <div class="col-lg-7 col-md-12">
+                     <div class="contact-area  contact-area-3">
+                         <h2 class="text-white">Quick Contact Form</h2>
+                         {% if form.errors %}
+                            <div class="alert alert-warning alert-dismissible fade show text-dark" role="alert">
+                                {{ form.errors }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                        {% endif %}
+                        {% if messages %}
+                        <div>
+                            {% for message in messages %}
+                            <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                {{ message }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                         <div class="contact-form">
+                            <form method="post" class="contact-validation-active">
+                                {% csrf_token %}
+                            
+                                <div class="half-col">
+                                    {{ form.name }}
+                                    {{ form.name.errors }}
+                                </div>
+                            
+                                <div class="half-col">
+                                    {{ form.email }}
+                                    {{ form.email.errors }}
+                                </div>
+                            
+                                <div class="half-col">
+                                    {{ form.phone }}
+                                    {{ form.phone.errors }}
+                                </div>
+                            
+                                <div class="half-col">
+                                    {{ form.address }}
+                                    {{ form.address.errors }}
+                                </div>
+                            
+                                <div>
+                                    {{ form.message }}
+                                    {{ form.message.errors }}
+                                </div>
+                                <div>
+                                    {{ form.captcha }}
+                                    {{ form.captcha.errors }}
+                                </div>
+                            
+                                <div class="submit-btn-wrapper">
+                                    <button type="submit" class="theme-btn-s3 btn-dark">Send Message</button>
+                                    <div id="loader">
+                                        <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+                                    </div>
+                                </div>
+                            </form>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col col-xs-12">
+                     <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.0731539940416!2d-73.97054592483042!3d40.760415734651545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258e53588393f%3A0xbf1bcb59a85df6b7!2s950%203rd%20Ave%2C%20New%20York%2C%20NY%2010022%2C%20USA!5e0!3m2!1sen!2sng!4v1749833247953!5m2!1sen!2sng"  allowfullscreen=""></iframe>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+</section>
+
+<!-- <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        {% if scroll_to_contact_area %}
+            var elem = document.getElementById('contact-area-me');
+            if (elem) {
+                elem.scrollIntoView({ behavior: 'smooth' });
+            }
+        {% endif %}
+    });
+</script> -->
+{% endblock %}

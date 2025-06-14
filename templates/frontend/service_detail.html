@@ -1,0 +1,132 @@
+{% extends "./base.html" %}
+{% load static %}
+
+{% block title %}{{ meta.title }}{% endblock %}
+{% block meta_description %}{{ meta.description }}{% endblock %}
+{% block meta_keywords %}{{ meta.keywords }}{% endblock %}
+
+
+{% block head %}
+  {{ block.super }}
+  {% if structured_data %}
+    <script type="application/ld+json">
+      {{ structured_data|safe }}
+    </script>
+  {% endif %}
+  {% if breadcrumbs %}
+    <script type="application/ld+json">
+      {{ breadcrumbs|safe }}
+    </script>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+<!-- .breadcumb-area start -->
+<div class="breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcumb-wrap">
+                    <h2>{{service.name}} Details</h2>
+                    <ul>
+                        <li><a href="{% url 'frontend:home' %}"><i class="icon-36"></i> Home</a></li>
+                        <li>{{service.name}} Details</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+<!-- .breadcumb-area end -->
+
+
+<!-- .practice-details-area start -->
+<div class="practice-details-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 p-p">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6">
+                        <div class="field-section">
+                            <div class="field-img">
+                                <img src="{% static 'frontend/assets/images/practice/2.jpg' %}" alt="">
+                            </div>
+                            <div class="field-content">
+                                <h3><span>25</span>Years of Experience In This Field</h3>
+                                <div class="btns">
+                                    <div class="btn-style"><a href="#">Contact Us Now</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-6">
+                        <div class="practice-catagory-item">
+                            <div class="widget-title">
+                                <h3 class="text-left">Category</h3>
+                            </div>
+                            <div class="practice-section">
+                                <ul>
+                                    {% for list in services %}
+                                        <li><a href="{{ list.get_absolute_url }}">{{ list.name }}</a></li>
+                                    {% endfor %}
+                                    <!-- <li><a href="">Criminal Law</a></li>
+                                    <li><a href="">Business Law</a></li>
+                                    <li><a href="">Personal Injury</a></li>
+                                    <li><a href="">Education Law</a></li>
+                                    <li><a href="">Drugs Crime</a></li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="practice-section-img">
+                    <img src="{% static 'frontend/assets/images/practice/3.jpg' %}" alt="">
+                </div>
+                <div class="practice-section-text">
+                    <h2>{{service.name}}</h2>
+                    <h5 >{{service.title}}</h5>
+                    <p >{{service.description|linebreaksbr}}</p>
+                </div>
+                <!-- <div class="organigation-area">
+                    <div class="organaigation-img">
+                        <img src="{% static 'frontend/assets/images/practice/4.jpg' %}" alt="">
+                    </div>
+                    <div class="organigation-text">
+                        <h2>Family Law Organizations</h2>
+                        <span><i class="fa fa-check-square-o" aria-hidden="true"></i>The master-builder of human happiness.</span>
+                        <span><i class="fa fa-check-square-o" aria-hidden="true"></i>Occasionally circumstances occur in which toil and pain</span>
+                        <span><i class="fa fa-check-square-o" aria-hidden="true"></i>Avoids pleasure itself, because it is pleasure</span>
+                        <span><i class="fa fa-check-square-o" aria-hidden="true"></i>who do not know how to pursue pleasure</span>
+                        <span><i class="fa fa-check-square-o" aria-hidden="true"></i>To take a trivial example, which of us ever undertakes</span>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .practice-details-area end -->
+
+<!-- start social-newsletter-section -->
+<section class="social-newsletter-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="newsletter text-center">
+                    <h3>Subscribe Newsletter</h3>
+                    <div class="newsletter-form">
+                        <form>
+                            <input type="text" class="form-control" placeholder="Enter Your Email Address...">
+                            <button type="submit">subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end container -->
+</section>
+<!-- end social-newsletter-section -->
+{% endblock %}
+

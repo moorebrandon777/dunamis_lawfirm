@@ -1,0 +1,101 @@
+{% extends "../base.html" %}
+{% load static %}
+
+
+{% block title %}Meet Our Attorneys | Dunamis Law Firm{% endblock %}
+{% block meta_description %}Experienced legal professionals in family law, criminal defense, and corporate litigation. Meet our team.{% endblock %}
+{% block meta_keywords %}new york law firm, family law, criminal defense, legal services, barrister, barrister Rurl Amos {% endblock %}
+
+{% block head %}
+  {{ block.super }}
+  {% if breadcrumbs %}
+    <script type="application/ld+json">
+      {{ breadcrumbs|safe }}
+    </script>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+<!-- .breadcumb-area start -->
+<div class="breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcumb-wrap">
+                    <h2>Meet Our Attorneys</h2>
+                    <ul>
+                        <li><a href="{% url 'frontend:home' %}"><i class="icon-36"></i> Home</a></li>
+                        <li>Attorneys</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>   
+<!-- .breadcumb-area end -->
+
+<!-- expert-area start -->
+<div class="expert-area Attorneys-area section-padding">
+    <div class="container">
+        <div class="col-l2">
+            <div class="section-title section-title2 text-center">
+                <span>Meet Our Experts</span>
+                <h2>Qualified Attorneys</h2>
+            </div>
+        </div>
+        <div class="expert-sub">
+            <div class="expert-item">
+                <div class="row gx-5">
+                    {% for attorney in attorneys%}
+                    <div class="col-lg-4 col-md-6 col-p">
+                        <div class="expert-single">
+                            <div class="expert-img">
+                                <img src="{% static 'frontend/assets/images/expert/1.jpg' %}" alt="">
+                            </div>
+                            <div class="expert-content text-center">
+                                <h3>{{attorney.name}} <span> | {{attorney.position}}</span></h3>
+                                <span>{{attorney.title}}</span>
+                                
+                                <ul class="d-flex">
+                                    <li>
+                                        <a href="{% url 'frontend:attorney_detail' attorney.slug %}" class="btn btn-secondary btn-sm text-white fw-bold">More Details</a>
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                    {% endfor %}
+                    
+                </div>    
+                <!-- <div class="btns text-center">
+                    <div class="btn-style"><a href="#">See All Attorneys</a></div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!-- expert-area end -->
+
+<!-- start social-newsletter-section -->
+<section class="social-newsletter-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="newsletter text-center">
+                    <h3>Subscribe Newsletter</h3>
+                    <div class="newsletter-form">
+                        <form>
+                            <input type="text" class="form-control" placeholder="Enter Your Email Address...">
+                            <button type="submit">subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end container -->
+</section>
+<!-- end social-newsletter-section -->
+{% endblock %}

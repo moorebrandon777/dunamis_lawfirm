@@ -1,0 +1,250 @@
+{% extends "./base.html" %}
+{% load static %}
+
+
+{% block title %}Experienced Law Firm in New York | Dunamis Law Firm{% endblock %}
+{% block meta_description %}Trusted legal services in family, criminal, and corporate law. Book a free consultation today.{% endblock %}
+{% block meta_keywords %}new york law firm, family law, criminal defense, legal services{% endblock %}
+
+{% block head %}
+  {{ block.super }}
+  {% if structured_data %}
+    <script type="application/ld+json">
+      {{ structured_data|safe }}
+    </script>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+
+<!-- start of hero -->
+<section class="hero hero-slider-wrapper hero-style-1">
+    <div class="hero-slider">
+        <div class="slide">
+            <img src="{% static 'frontend/assets/images/slider/slide-4.jpg' %}" alt="" class="slider-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-8 slide-caption">
+                        <p>{{meta.title}}</p>
+                        <!-- <h2><span>We Fight For Your Justice</span> <span>As Like A Friend.</span></h2> -->
+                        <h2>Experienced attorneys specializing in personal injury and criminal defense</h2>
+                        <div class="btns">
+                            <div class="btn-style btn-style-3"><a href="">Contact us now</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide">
+            <img src="{% static 'frontend/assets/images/slider/slide-5.jpg' %}" alt="" class="slider-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-lg-8 slide-caption">
+                        <p>{{meta.title}}</p>
+                        <h2>Experienced attorneys specializing in personal injury and criminal defense</h2>
+                        <div class="btns">
+                            <div class="btn-style btn-style-3"><a href="">Contact us now</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end of hero slider -->
+
+
+<!-- .service-area start -->
+<div class="service-area service-area3">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 icon-b">
+                            <div class="service-icon">
+                                <i class="fi flaticon-lawyer"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+                            <div class="service-text">
+                                <span>Book Your</span>
+                                <h3>Appointment</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 icon-b">
+                            <div class="service-icon">
+                                <i class="fi flaticon-scale"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+                            <div class="service-text">
+                                <span>Get Free</span>
+                                <h3>Expert Advice</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 icon-b">
+                            <div class="service-icon">
+                                <i class="fi flaticon-network"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+                            <div class="service-text">
+                                <span>You Can Easily</span>
+                                <h3>Join Our Team</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .service-area end -->
+
+
+<!-- .about-area start -->
+<div class="about-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="about-text title">
+                    <span>About Dunamis Law Firm</span>
+                    <h2>Who We Are: Dunamis Law Firm</h2>
+                    <p>Dunamis Law Firm is a dynamic and client-focused legal practice committed to delivering exceptional legal services with integrity and excellence. Our experienced team specializes in corporate law, litigation, real estate, family law, and criminal law, providing personalized solutions to meet every client's unique needs. Whether navigating complex business transactions or defending your rights in criminal cases, we offer knowledgeable, strategic representation. </p>
+                    <p>At Dunamis, we combine deep legal expertise with a results driven approach, ensuring effective advocacy and trusted counsel in every case. Your justice and peace of mind are our top priorities. Trust Dunamis Law Firm to stand by your side.</p>
+                    <div class="btns-2">
+                        <div class="btn-style"><a href="">More About Us..</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-lg-6">
+                <div class="about-title">
+                    <div class="img-holder">
+                        <div class="overlay">
+                            <img src="{% static 'frontend/assets/images/about/1.jpg' %}" alt="">
+                            <!-- <div class="social-1st">
+                                <ul>
+                                    <li><a href="https://www.youtube.com/embed/uQBL7pSAXR8?autoplay=1" class="video-btn" data-type="iframe">
+                                            <i class="fa fa-play"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .about-area end -->
+
+<!-- practice area start -->
+ {% include './partials/practice_area.html' %}
+<!-- practice area end -->
+
+
+<!-- case studiess area start -->
+<div class="studies-area section-padding">
+    <div class="container-fluid">
+        <!-- studies area start -->
+        <div class="col-l2">
+            <div class="section-title section-title2 text-center">
+                <span>Here Our Best Work</span>
+                <h2>Our Resent Case Studies</h2>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="studies-menu text-center">
+                <button class="active" data-filter="*">All</button>
+                <button data-filter=".Family-Matters">Family Matters</button>
+                <button data-filter=".Real-Estate">Real Estate</button>
+                <button data-filter=".Business">Business</button>
+                <button data-filter=".Criminal">Criminal</button>
+                <button data-filter=".Injury">Injury</button>
+            </div>
+        </div>
+        <div class="row g-0 grid">
+            <div class="col-c grid-item Family Matters Business Injury">
+                <div class="studies-item">
+                    <div class="studies-single">
+                        <img src="{% static 'frontend/assets/images/studies/1.jpg' %}" alt="">
+                    </div>
+                    <div class="overlay-text">
+                        <div class="text-inner">
+                            <p class="sub">Corporate</p>
+                            <h3>General Service</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-c grid-item Family-Matters Real-Estate Criminal">
+                <div class="studies-item">
+                    <div class="studies-single">
+                        <img src="{% static 'frontend/assets/images/studies/2.jpg' %}" alt="">
+                    </div>
+                    <div class="overlay-text">
+                        <div class="text-inner">
+                            <p class="sub">General</p>
+                            <h3>Personal Issue</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-c grid-item Family-Matters Business Criminal Injury">
+                <div class="studies-item">
+                    <div class="studies-single">
+                        <img src="{% static 'frontend/assets/images/studies/3.jpg' %}" alt="">
+                    </div>
+                    <div class="overlay-text">
+                        <div class="text-inner">
+                            <p class="sub">Business</p>
+                            <h3>Business Law</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-c grid-item Real-Estate Criminal Injury">
+                <div class="studies-item">
+                    <div class="studies-single">
+                        <img src="{% static 'frontend/assets/images/studies/4.jpg' %}" alt="">
+                    </div>
+                    <div class="overlay-text">
+                        <div class="text-inner">
+                            <p class="sub">Criminal</p>
+                            <h3>Criminal Issue</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-c grid-item Real-Estate Business Criminal Family-Matters Injury">
+                <div class="studies-item">
+                    <div class="studies-single">
+                        <img src="{% static 'frontend/assets/images/studies/5.jpg' %}" alt="">
+                    </div>
+                    <div class="overlay-text">
+                        <div class="text-inner">
+                            <p class="sub">Family Issue</p>
+                            <h3>Family Law</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- case studiess area end -->
+{% endblock %}

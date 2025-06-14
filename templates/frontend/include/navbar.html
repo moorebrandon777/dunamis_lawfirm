@@ -1,0 +1,73 @@
+{% load static %}
+
+<!-- navbar start -->
+<header>
+  <div class="header-top header-top-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-sm-12 col-12 col-lg-10">
+          <ul class="d-flex account_login-area header-contact">
+            <li>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>950 3rd Ave New York, NY 10022
+            </li>
+            <li><i class="fa fa-mobile" aria-hidden="true"></i>+1 516-2863799</li>
+            <li><i class="fa fa-clock-o" aria-hidden="true"></i>9AM - 5PM</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-12">
+          <div class="btn-style btn-style2">
+            <a href="{% url 'frontend:contact' %}">Free Consulting</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="header-area" id="sticky-header">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-10 col-sm-10 col-8">
+          <div class="logo">
+            <a href="{% url 'frontend:home' %}"
+              ><img src="{% static 'frontend/assets/images/logo/logo.png' %}" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="col-lg-8 d-none d-lg-block">
+          <div class="main-menu" id="navbar">
+            <nav class="nav_mobile_menu">
+              <ul>
+                <li class="active">
+                  <a href="{% url 'frontend:home' %}">HOME</a>
+                </li>
+                <li><a href="{% url 'frontend:about' %}">ABOUT</a></li>
+                <li><a href="{% url 'frontend:attorneys_list' %}">ATTORNEYS</a></li>
+                <li>
+                  <a href="{% url 'frontend:services_list' %}">Services </a>
+                </li>
+                <li><a href="{% url 'frontend:contact' %}">CONTACT</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-lg-1 col-md-2 col-sm-2 col-4 search">
+          <ul>
+            <li>
+              <a href="javascript:void(0);"><i class="fa fa-search"></i></a>
+              <ul>
+                <li>
+                  <form action="index.php">
+                    <input type="text" placeholder="search here.." />
+                    <button><i class="fa fa-search"></i></button>
+                  </form>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 d-block d-lg-none">
+          <div class="mobile_menu"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>

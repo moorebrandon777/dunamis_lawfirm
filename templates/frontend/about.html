@@ -1,0 +1,237 @@
+{% extends "./base.html" %}
+{% load static %}
+
+{% block title %}{{ meta.title }}{% endblock %}
+{% block meta_description %}{{ meta.description }}{% endblock %}
+{% block meta_keywords %}{{ meta.keywords }}{% endblock %}
+
+{% block head %}
+  {{ block.super }}
+  {% if structured_data %}
+    <script type="application/ld+json">
+        {{ structured_data|safe }}
+    </script>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+<!-- .breadcumb-area start -->
+<div class="breadcumb-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="breadcumb-wrap">
+                    <h2>About Us</h2>
+                    <ul>
+                        <li><a href="{% url 'frontend:home' %}"><i class="icon-36"></i> Home</a></li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>    
+<!-- .breadcumb-area end -->
+
+
+<!-- .service-area start -->
+<div class="service-area service-area2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 icon-c">
+                            <div class="service-icon">
+                                <i class="fi flaticon-lawyer"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+                            <div class="service-text">
+                                <span>Book Your</span>
+                                <h3>Appointment</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 icon-c">
+                            <div class="service-icon">
+                                <i class="fi flaticon-scale"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+                            <div class="service-text">
+                                <span>Get Free</span>
+                                <h3>Expert Advice</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3 icon-c">
+                            <div class="service-icon">
+                                <i class="fi flaticon-network"></i>
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-9 col-sm-9 col-9">
+                            <div class="service-text">
+                                <span>You Can Easily</span>
+                                <h3>Join Our Team</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .service-area end -->
+
+ <!-- .about-area start -->
+ <div class="about-area section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10">
+                <div class="about-text title">
+                    <span>Who We Are</span>
+                    <h2 class="mb-0">About Dunamis Law Firm</h2>
+                    <p class="lead text-muted mt-0">By Rurl Amos, Founder & President</p>
+                    <p>Dunamis Law Firm was founded with a singular conviction: that every individual regardless of status, background, or accusation—deserves fearless, principled legal representation. Since our inception in New York City, we have grown into one of the most respected criminal defense firms in the region, known for our strategic precision, ethical rigor, and uncompromising dedication to justice.</p>
+                    <p>As someone who came to the United States from Belgium as a boy and later found his calling in the law, Rurl Amos founded Dunamis to be more than just a legal practice. He envisioned a firm where strength, strategy, and service converged; a place where clients facing the hardest moments of their lives could find not just defense, but dignity. "Dunamis," derived from the Greek word for power, speaks to our foundational belief that the law, when wielded with integrity, has the power to protect and to restore</p>
+                    <p>At Dunamis, we specialize in <strong>criminal defense</strong>, with a focus on both state and federal litigation. Our cases span the spectrum, from violent crime and organized crime, to white collar offenses, fraud, and complex investigations. We also handle select civil rights cases and appellate work where constitutional issues or injustices are at stake.</p>
+                    <p>Our team is made up of fiercely capable attorneys, many of whom bring backgrounds in public defense, federal litigation, and academia. Among them is my partner, Darcy Alec, a Chicago-born litigator whose sharp legal mind and moral clarity make him indispensable to our mission. Every member of our firm, from paralegals to partners operates under the same ethos: <strong>client centered defense , strategic advocacy, and excellence in execution.</strong></p>
+                    <p>We believe that preparation wins cases. That's why we invest substantial time into case analysis, evidence review, motion practice, and jury strategy. Our clients are not numbers. They are people whose lives, reputations, and futures are on the line. Whether representing a teenager wrongly accused of a violent crime, a professional facing federal indictment, or a public figure caught in a legal firestorm, we approach every case with the same intensity and respect.</p>
+                    <p>Over the years, Dunamis Law Firm has earned recognition for taking on, and winning cases many considered unwinnable. But what makes us proudest isn't the media attention or courtroom victories, it's the gratitude of clients whose freedom was preserved and the knowledge that we made a difference.
+                    </p>
+                    <p>Our offices in New York serve a broad and diverse clientele. We are fluent in navigating the cultural, economic, and linguistic nuances that often play a role in the justice system. As a law firm founded by an immigrant, We remain particularly committed to defending the rights of those whose voices are often unheard.</p>
+                    <p>Outside the courtroom, Dunamis is active in legal education, criminal justice reform, and mentorship. We partner with community organizations to provide legal access and support to underrepresented groups, and we regularly speak in schools and law programs to educate the next generation of advocates.
+
+                    As we continue to grow, our mission remains unchanged: to stand between the accused and the full weight of the government, armed with knowledge, courage, and principle. At Dunamis Law Firm, we don't just practice law, we protect lives.</p>
+                    <p>If you are facing criminal charges or require strategic legal counsel, we welcome you to contact us. You will find not only skilled attorneys but a team that believes in your right to be heard, defended, and treated with justice.
+                    </p>
+                    <p>- Rurl Amos <br> <span>Founder & President, Dunamis Law Firm</span></p>
+                    
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- .about-area end -->
+
+
+<!-- practice area start -->
+{% include './partials/practice_area.html' %}
+<!-- practice area end -->
+
+<!-- testimonial area start -->
+<div class="testimonial-area testimonial-area2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="testimonial-img">
+                    <img src="{% static 'frontend/assets/images/testimonial/1.png' %}" alt="">
+                </div>
+            </div>
+            <div class="col-lg-7 offset-lg-1 col-md-6">
+                <div class="testimonial-text">
+                    <div class="title">
+                        <span>What People Say</span>
+                        <h2>Client Testimonial</h2>
+                    </div>
+                    <div class="testimonial-slide owl-carousel">
+                        <div class="slide-item">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour,</p>
+                            <div class="thumb-img">
+                                <img src="assets/images/testimonial/2.png" alt="">
+                            </div>
+                            <div class="img-content">
+                                <h4>Jhony Goaver</h4>
+                                <span>CEO of American BDS</span>
+                            </div>
+                        </div>
+                        <div class="slide-item">
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have
+                                suffered alteration in some form, by injected humour,</p>
+                            <div class="thumb-img">
+                                <img src="assets/images/testimonial/2.png" alt="">
+                            </div>
+                            <div class="img-content">
+                                <h4>Jhony Goaver</h4>
+                                <span>CEO of American BDS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- testimonial area start -->
+
+<!-- .counter-area start -->
+<div class="counter-area counter-area2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="counter-grids">
+                    <div class="grid">
+                        <div>
+                            <h2><span class="odometer" data-count="95">00</span>%</h2>
+                        </div>
+                        <p>Cases Won</p>
+                    </div>
+                    <div class="grid">
+                        <div>
+                            <h2><span class="odometer" data-count="26863">00</span></h2>
+                        </div>
+                        <p>Trusted Client</p>
+                    </div>
+                    <div class="grid">
+                        <div>
+                            <h2><span class="odometer" data-count="126">00</span>+</h2>
+                        </div>
+                        <p>Dedicated Lawyer</p>
+                    </div>
+                    <div class="grid">
+                        <div>
+                            <h2><span class="odometer" data-count="25">00</span>%</h2>
+                        </div>
+                        <p>Case Dismissed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- .counter-area end -->
+
+<!-- start social-newsletter-section -->
+<section class="social-newsletter-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="newsletter text-center">
+                    <h3>Subscribe Newsletter</h3>
+                    <div class="newsletter-form">
+                        <form>
+                            <input type="text" class="form-control" placeholder="Enter Your Email Address...">
+                            <button type="submit">subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end container -->
+</section>
+<!-- end social-newsletter-section -->
+{% endblock %}
