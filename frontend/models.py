@@ -1,6 +1,7 @@
 from django.db import models
 from django.utils.text import slugify
 from django.urls import reverse
+from cloudinary.models import CloudinaryField
 
 # main/models.py
 class Attorney(models.Model):
@@ -10,7 +11,7 @@ class Attorney(models.Model):
     position = models.CharField(max_length=100)
     practice_area = models.CharField(max_length=200)
     bio = models.TextField()
-    # photo = models.ImageField(upload_to='attorneys/', blank=True, null=True)
+    photo = CloudinaryField('image', null=True, default=None, blank=True)
     email = models.EmailField()
     phone = models.CharField(max_length=30)
     linkedin_url = models.URLField(null=True, blank=True)

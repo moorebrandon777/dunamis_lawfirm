@@ -13,6 +13,8 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
+import cloudinary
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -43,6 +45,7 @@ INSTALLED_APPS = [
 
     # external apps
     'django.contrib.sitemaps',
+    'cloudinary',
     'captcha',
 
     
@@ -132,6 +135,14 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = (os.path.join(BASE_DIR, "static"),)
+
+
+cloudinary.config( 
+  	cloud_name = os.environ.get('CLOUD_NAME'),
+  	api_key = os.environ.get('API_KEY'),
+  	api_secret = os.environ.get('API_SECRET')
+)
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field

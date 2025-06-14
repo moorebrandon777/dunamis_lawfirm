@@ -129,7 +129,7 @@ def attorney_detail(request, slug):
         "@context": "https://schema.org",
         "@type": "Person",
         "name": attorney.name,
-        # "image": request.build_absolute_uri(attorney.photo.url) if attorney.photo else "",
+        "image": request.build_absolute_uri(attorney.photo.url) if attorney.photo else "",
         "jobTitle": attorney.title,
         "url": request.build_absolute_uri(),
         "email": attorney.email,
