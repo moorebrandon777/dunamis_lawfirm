@@ -1,0 +1,455 @@
+[
+{
+    "model": "auth.user",
+    "fields": {
+        "password": "pbkdf2_sha256$600000$5PkFQ7V4TMSNtSqCKEzrze$7eIDWf8aFJLV/IoVWltooUeKz0ISeAJRA8wY89tuArI=",
+        "last_login": "2025-06-14T11:43:06.412Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2025-06-13T10:24:20.839Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "n61f6cwfbbtigilqig2sier84ca651q5",
+    "fields": {
+        "session_data": ".eJxVjMsOwiAQRf-FtSG8B1y69xsIDIxUDU1KuzL-uzbpQrf3nHNfLKZtbXEbdYlTYWcm2el3ywkfte-g3FO_zRznvi5T5rvCDzr4dS71eTncv4OWRvvWlooESSKH4CwIZwSaVAFNEJgBjPIWikYfNAlhvSJnHSnntdSEEBR7fwC_uTae:1uQPHu:JXuwqlvRNZznZgZ_yFTWLyIkjB-V55SYuW0zPqD9so8",
+        "expire_date": "2025-06-28T11:43:06.472Z"
+    }
+},
+{
+    "model": "captcha.captchastore",
+    "pk": 82,
+    "fields": {
+        "challenge": "JLOFXJ",
+        "response": "jlofxj",
+        "hashkey": "f890b1259570cb3067f03fd9aae9d48cee6102b9",
+        "expiration": "2025-06-14T12:09:25.128Z"
+    }
+},
+{
+    "model": "captcha.captchastore",
+    "pk": 84,
+    "fields": {
+        "challenge": "XQYFEB",
+        "response": "xqyfeb",
+        "hashkey": "35c688148012772a0924c6c881093d240128cb55",
+        "expiration": "2025-06-14T12:10:10.079Z"
+    }
+},
+{
+    "model": "frontend.attorney",
+    "pk": 1,
+    "fields": {
+        "name": "Rurl Amos",
+        "slug": "rurl-amos",
+        "title": "Defense Attorney",
+        "position": "President",
+        "practice_area": "Criminal law, Corperate Law, Business Law",
+        "bio": "Rurl Amos is a distinguished criminal defense attorney and the founding president of Dunamis Law Firm, based in New York City. Known for his unflinching commitment to justice, sharp courtroom strategy, and empathetic approach to client advocacy, Rurl has built a career defined by integrity, excellence, and resilience.\r\n\r\nBorn in Charleroi, Belgium, Rurl migrated to the United States with his family at the age of nine. Arriving in a new country without speaking a word of English, he quickly developed a deep appreciation for the power of communication and the role it plays in justice and society. Growing up in a working-class neighborhood in Brooklyn, he witnessed firsthand how legal representation often determines whether justice is served or denied. That early exposure would shape his future and fuel his drive.\r\n\r\nRurl pursued his undergraduate studies at Princeton University, majoring in Political Science with a concentration in International Relations. He went on to graduate magna cum laude from Yale Law School, where he was an editor on the Yale Law Journal and led the Criminal Justice Clinic. His academic excellence, coupled with his unique cross-cultural perspective, quickly marked him as a rising star in the legal field.\r\n\r\nAfter law school, Rurl clerked for the Honorable Livia Mercado on the U.S. Court of Appeals for the Second Circuit, where he honed his legal reasoning and deepened his understanding of appellate procedure. He later joined a top tier New York litigation firm before founding Dunamis Law Firm, driven by a vision of a practice built on ethical strength, advocacy for the marginalized, and tactical brilliance.\r\n\r\nUnder his leadership, Dunamis Law Firm has earned a reputation for taking on complex and high-profile criminal cases, ranging from federal fraud and white-collar crime to homicide and organized crime defense. Rurl has defended clients in state and federal courts across the country and is known for his ability to dismantle prosecution arguments with surgical precision. His courtroom demeanor measured but relentless has earned him the respect of both peers and adversaries.\r\n\r\nBeyond the courtroom, Rurl is a passionate mentor and speaker, regularly addressing law students and young attorneys on topics including legal ethics, criminal procedure, and the immigrant experience in the legal profession. He serves on the board of several nonprofit organizations that provide legal support to underrepresented communities and is a strong advocate for reform in the areas of bail, sentencing, and prosecutorial accountability.\r\n\r\nDespite his accolades, Rurl remains grounded in the values that brought him to law in the first place, which is truth, courage, and the belief that every individual deserves a vigorous and fair defense. His personal journey from immigrant to Ivy League scholar to leading criminal defense attorney is not just a testament to his tenacity, but also to the enduring promise of justice when pursued with purpose.\r\n\r\nToday, Rurl Amos continues to lead Dunamis Law Firm with vision and resolve, defending clients, mentoring the next generation, and ensuring that the law works not just for the powerful, but for everyone.",
+        "photo": "image/upload/v1749901421/vbhftngz5n3x0us19xq4.jpg",
+        "email": "rurl-amos@dunamislawfirm.com",
+        "phone": "+1234567890",
+        "linkedin_url": null,
+        "meta_title": "Rurl Amos – President and Senior Partner at Dunamis Law Firm",
+        "meta_description": "Learn more about Rurl Amos, The President and senior partner of Dunamis Law Firm, specializing in criminal law."
+    }
+},
+{
+    "model": "frontend.attorney",
+    "pk": 2,
+    "fields": {
+        "name": "Darcy Alec",
+        "slug": "darcy-alec",
+        "title": "Family Lawyer",
+        "position": "Partner",
+        "practice_area": "Corperate Law, Business Law, Family Law",
+        "bio": "Darcy Alec is a seasoned litigation attorney and partner at Dunamis Law Firm, where he brings over a decade of experience in criminal and civil defense. Known for his meticulous legal analysis, persuasive advocacy, and unwavering commitment to justice, Darcy is a core pillar of the firm’s leadership and strategy.\r\n\r\nBorn and raised on the South Side of Chicago, Illinois, Darcy was shaped early on by the dynamics of a city where legal outcomes often mirrored social divides. From an early age, he understood that law wasn't just a profession, it was a tool of change. That understanding fueled his pursuit of legal education and public service, a path marked by both academic excellence and community engagement.\r\n\r\nDarcy earned his undergraduate degree in Philosophy and Legal Studies from the University of Chicago, graduating cum laude. His time there sharpened his critical thinking and cemented his interest in the philosophical underpinnings of justice and due process. He later earned his Juris Doctor from Columbia Law School, where he was a standout member of the Columbia Human Rights Law Review and served as a student attorney in the Criminal Defense Clinic.\r\n\r\nAfter law school, Darcy began his legal career in public defense, representing underserved communities across New York City. His early courtroom experiences were intense and transformative, giving him a front-row view of systemic issues and deepening his resolve to be a voice for the accused. He later transitioned into private practice, where he broadened his scope to include white-collar criminal defense, complex civil litigation, and federal appeals.\r\n\r\nSince joining Dunamis Law Firm, Darcy has led several high-profile defense cases and internal investigations, and is frequently called upon for cases involving constitutional questions, prosecutorial overreach, and wrongful accusations. His litigation style combines strategic aggression with deep empathy for his clients, earning him a reputation as both a formidable opponent and a trusted advocate.\r\n\r\nBeyond the courtroom, Darcy is a mentor to young attorneys and a guest lecturer on trial advocacy and legal ethics. He is also active in pro bono initiatives focusing on criminal justice reform and expungement access.\r\n\r\nToday, Darcy Alec continues to serve not only as a legal force but as a voice of reason and reform in a justice system he has spent his life navigating and improving.",
+        "photo": "image/upload/v1749901640/hvzeep4rm7cgfti0tjhj.jpg",
+        "email": "rurl-amos@dunamislawfirm.com",
+        "phone": "+1234567890",
+        "linkedin_url": null,
+        "meta_title": "Darcy Alec –  Partner at Dunamis Law Firm",
+        "meta_description": "Learn more about Darcy Alec, a senior partner specializing in family and corporate law."
+    }
+},
+{
+    "model": "frontend.service",
+    "pk": 1,
+    "fields": {
+        "name": "Family Law",
+        "slug": "family-law",
+        "title": "Protecting relationships, rights, and futures through compassionate legal guidance.",
+        "description": "Family law in the United States is a comprehensive legal practice area dedicated to addressing issues that arise within familial relationships. It encompasses matters such as marriage, divorce, child custody, child support, adoption, and domestic violence, among others. This field of law is designed to protect the rights and interests of individuals and families while prioritizing the welfare of children.\r\n\r\nIn the U.S., family law is primarily governed by state law, which means that specific regulations and procedures may vary depending on the state. Despite these differences, certain principles remain constant, including the focus on equitable asset division during divorce, determining fair child custody arrangements, and ensuring appropriate financial support for children.\r\n\r\nAt Dunamis Law Firm, family law matters are handled with a personalized and compassionate approach. Understanding that family legal issues are often highly emotional and complex, Dunamis Law Firm strives to provide clear guidance and strong advocacy for clients. Their experienced attorneys assist individuals and families in navigating sensitive matters such as divorce proceedings, mediation, and custody disputes to achieve the best possible outcomes.\r\n\r\nDivorce is one of the most common issues addressed in family law. Dunamis Law Firm helps clients understand their rights regarding property division, spousal support (alimony), and the dissolution process. They work diligently to protect their clients’ financial and parental interests while promoting amicable resolutions where possible.\r\n\r\nChild custody and support are critical concerns in family law cases. The firm advocates for arrangements that serve the best interests of the child, which is the cornerstone of U.S. family law. Whether negotiating custody agreements or establishing child support obligations, Dunamis Law Firm prioritizes stability and the child’s well-being.\r\n\r\nAdditionally, Dunamis Law Firm offers legal support for adoption, guardianship, domestic violence protection orders, and paternity issues. Their comprehensive services ensure that clients receive informed legal advice and compassionate representation in all family-related matters.\r\n\r\nIn sum, family law in the U.S. demands both legal expertise and sensitivity. Dunamis Law Firm exemplifies these qualities, providing clients with trusted counsel to navigate the complexities of family law with confidence and care.",
+        "seo_title": "Expert Family Law Services in the USA | Dunamis Law Firm",
+        "seo_description": "Professional family law legal services including divorce, child custody, adoption, and domestic violence cases across the USA.",
+        "seo_keywords": "family law, divorce lawyer, child custody, adoption attorney, domestic violence lawyer, Dunamis Law Firm",
+        "flaticon": "parents"
+    }
+},
+{
+    "model": "frontend.service",
+    "pk": 2,
+    "fields": {
+        "name": "Personal Injury",
+        "slug": "personal-injury",
+        "title": "Fighting for your justice and compensation after accidents or injuries.",
+        "description": "Personal injury law is a crucial area of civil law that helps individuals who have suffered harm due to the negligence or wrongful actions of others. Whether caused by car accidents, workplace injuries, medical malpractice, or defective products, personal injury law provides a means for victims to seek compensation for their damages. This compensation can cover medical expenses, lost wages, rehabilitation costs, emotional distress, and more.\r\n\r\nIn the United States, personal injury law emphasizes the principle of negligence — when one party fails to act with reasonable care, resulting in injury to another. Proving negligence requires showing that the defendant owed a duty of care, breached that duty, and caused damages directly resulting from that breach.\r\n\r\nAt Dunamis Law Firm, we understand the physical, emotional, and financial toll personal injuries can take on victims and their families. Our experienced attorneys work closely with clients to gather evidence, interview witnesses, consult with medical experts, and build strong cases. We strive to secure fair settlements through negotiation with insurance companies but are fully prepared to take cases to trial if necessary to ensure justice is served.\r\n\r\nCommon personal injury cases handled by Dunamis Law Firm include automobile collisions, slip and fall accidents, workplace injuries covered by workers' compensation, medical negligence, and product liability claims. We are committed to protecting the rights of injured individuals and helping them navigate the complexities of insurance claims and legal procedures.\r\n\r\nTime is of the essence in personal injury cases due to statutes of limitations, so early legal consultation is critical. Dunamis Law Firm offers free initial consultations to evaluate claims and advise clients on the best course of action. Our mission is to provide compassionate, personalized legal representation and to fight vigorously for maximum compensation to help clients recover and move forward.\r\n\r\nIn summary, personal injury law empowers victims to hold negligent parties accountable and obtain compensation to cover their losses. Dunamis Law Firm stands as a trusted advocate for injured individuals across the USA, committed to delivering justice and peace of mind in challenging times.",
+        "seo_title": "Experienced Personal Injury Lawyers | Dunamis Law Firm New York, USA",
+        "seo_description": "Get expert legal help with personal injury cases including car accidents, workplace injuries, medical malpractice, and more at Dunamis Law Firm.",
+        "seo_keywords": "personal injury, accident lawyer, car accident attorney, workplace injury, medical malpractice lawyer, Dunamis Law Firm",
+        "flaticon": "wounded"
+    }
+},
+{
+    "model": "frontend.service",
+    "pk": 3,
+    "fields": {
+        "name": "Business Law",
+        "slug": "business-law",
+        "title": "Guiding your company through legal challenges for success and growth.",
+        "description": "Business law, also known as commercial law, governs the formation, operation, and dissolution of businesses. It encompasses a wide range of legal issues that affect companies of all sizes, from startups to multinational corporations. This area of law ensures that businesses comply with regulations, resolve disputes efficiently, and protect their interests in transactions and partnerships.\r\n\r\nIn the United States, business law covers topics such as contract negotiation and enforcement, corporate governance, mergers and acquisitions, intellectual property protection, employment law, and regulatory compliance. It also includes litigation matters, such as breach of contract disputes, shareholder conflicts, and liability issues.\r\n\r\nAt Dunamis Law Firm, our business law attorneys provide tailored legal solutions that help businesses grow while minimizing risk. We understand the complex and evolving legal landscape in which businesses operate, and we guide our clients through every stage of their commercial ventures.\r\n\r\nOur services include assisting with business formation, drafting and reviewing contracts, handling negotiations, and advising on compliance with federal and state laws. We also represent businesses in disputes involving contracts, employment matters, and commercial litigation. Whether you are launching a new enterprise, negotiating a partnership, or facing a lawsuit, Dunamis Law Firm offers the expertise and dedication to protect your business interests.\r\n\r\nWe recognize that each business is unique, and our attorneys work closely with clients to understand their goals and challenges. Our proactive approach aims to prevent legal problems before they arise and resolve issues promptly when they do.\r\n\r\nAdditionally, Dunamis Law Firm helps businesses with intellectual property matters, such as trademarks and copyrights, ensuring that innovations and brand identities remain protected. We also assist with regulatory matters, including compliance with industry-specific laws and government regulations.\r\n\r\nIn today’s competitive market, having strong legal support is essential for business success. Dunamis Law Firm is committed to providing comprehensive, practical, and strategic legal counsel to businesses across the USA, empowering them to thrive with confidence.",
+        "seo_title": "Trusted Business Law Services | Dunamis Law Firm New York, USA",
+        "seo_description": "Expert legal guidance on business formation, contracts, litigation, intellectual property, and regulatory compliance at Dunamis Law Firm.",
+        "seo_keywords": "business law, commercial law, contract lawyer, corporate attorney, intellectual property, business litigation, Dunamis Law Firm",
+        "flaticon": "employee"
+    }
+},
+{
+    "model": "frontend.service",
+    "pk": 4,
+    "fields": {
+        "name": "Criminal Law",
+        "slug": "criminal-law",
+        "title": "Defending your rights with strong, experienced legal representation and strategy.",
+        "description": "Criminal law is the branch of law that deals with offenses against the state or society as a whole. It governs the prosecution and defense of individuals accused of committing crimes, ranging from minor infractions to serious felonies. The primary aim of criminal law is to maintain public order and safety by enforcing laws and imposing penalties on those who violate them.\r\n\r\nIn the United States, criminal law covers a wide spectrum of offenses, including theft, assault, drug crimes, DUI (driving under the influence), white-collar crimes, domestic violence, and homicide. Each case involves complex procedures governed by constitutional protections, such as the right to counsel, protection against unlawful searches, and the presumption of innocence until proven guilty.\r\n\r\nAt Dunamis Law Firm, our criminal defense attorneys are dedicated to protecting the rights of individuals facing criminal charges. We understand the significant impact a criminal accusation can have on a person’s life, reputation, and future. Our team provides vigorous representation aimed at achieving the best possible outcome, whether through negotiation, plea agreements, or trial.\r\n\r\nOur approach includes a thorough investigation of the facts, critical analysis of the prosecution’s evidence, and strategic defense planning. We work closely with clients to explain their rights and options, ensuring informed decisions throughout the legal process. Dunamis Law Firm is committed to safeguarding every client’s constitutional rights and providing personalized attention to each case.\r\n\r\nThe firm handles a broad range of criminal matters, from misdemeanors to serious felonies, including drug offenses, violent crimes, theft, fraud, and DUI cases. We also assist with bail hearings, pretrial motions, and appeals when necessary.\r\n\r\nBecause criminal proceedings can be complicated and time-sensitive, early legal intervention is crucial. Dunamis Law Firm offers prompt consultations to evaluate charges and develop effective defense strategies. Our goal is to minimize the consequences faced by clients and protect their freedoms and futures.\r\n\r\nIn summary, criminal law requires skilled and dedicated legal defense. Dunamis Law Firm stands ready to support individuals accused of crimes with expert guidance and zealous advocacy across the USA.",
+        "seo_title": "Experienced Criminal Defense Lawyers | Dunamis Law Firm New York, USA",
+        "seo_description": "Protect your rights with skilled criminal defense attorneys handling DUI, drug crimes, assault, theft, and more at Dunamis Law Firm.",
+        "seo_keywords": "criminal law, criminal defense, DUI lawyer, drug crime attorney, assault defense, theft lawyer, Dunamis Law Firm",
+        "flaticon": "thief"
+    }
+},
+{
+    "model": "frontend.service",
+    "pk": 5,
+    "fields": {
+        "name": "Education Law",
+        "slug": "education-law",
+        "title": "Protecting student's rights and supporting fair policies in education systems.",
+        "description": "Education law is a specialized legal field focused on the rights and responsibilities of students, parents, educators, and educational institutions. It governs a broad spectrum of issues related to public and private education, including student rights, special education, school discipline, teacher employment, and compliance with federal and state education regulations.\r\n\r\nIn the United States, education law plays a critical role in ensuring access to quality education while safeguarding civil rights. Key federal laws such as the Individuals with Disabilities Education Act (IDEA), Title IX, the Family Educational Rights and Privacy Act (FERPA), and Section 504 of the Rehabilitation Act establish protections for students with disabilities, prevent discrimination, and regulate student privacy.\r\n\r\nAt Dunamis Law Firm, we provide expert guidance and representation in education-related legal matters. Our attorneys advocate for students and families facing challenges such as special education disputes, bullying and harassment, disciplinary actions, school expulsions, and discrimination claims. We also assist educators and school administrators with employment issues, policy compliance, and regulatory matters.\r\n\r\nEducation law cases often involve complex interactions between families, schools, and government agencies. Dunamis Law Firm helps clients navigate these challenges by offering personalized legal advice, negotiating resolutions, and representing clients in administrative hearings and court proceedings when necessary.\r\n\r\nOur firm understands the importance of ensuring that every student receives a fair and equitable education in a safe environment. We are committed to protecting the rights of students with disabilities to receive appropriate services, addressing issues of discrimination based on race, gender, or disability, and advocating for due process in disciplinary matters.\r\n\r\nWhether you are a parent seeking special education services, a student facing disciplinary action, or an educator needing legal support, Dunamis Law Firm offers knowledgeable and compassionate representation. Our goal is to help clients achieve positive outcomes and uphold the principles of fairness and equity within the educational system.\r\n\r\nIn summary, education law is vital for protecting rights and resolving disputes within schools. Dunamis Law Firm stands as a trusted ally for students, families, and educators across the USA.",
+        "seo_title": "Trusted Education Law Services | Dunamis Law Firm, New York, USA",
+        "seo_description": "Expert legal support for students, parents, and educators in special education, discrimination, school discipline, and compliance at Dunamis Law Firm.",
+        "seo_keywords": "education law, special education lawyer, school discipline attorney, student rights, discrimination law, Dunamis Law Firm",
+        "flaticon": "university-graduate-hat"
+    }
+},
+{
+    "model": "frontend.service",
+    "pk": 6,
+    "fields": {
+        "name": "Real Estate Law",
+        "slug": "real-estate-law",
+        "title": "Navigating property transactions and disputes with expert legal support.",
+        "description": "Real estate law governs the legal aspects of buying, selling, leasing, and managing property. It covers a broad range of issues including property transactions, zoning and land use, landlord-tenant disputes, financing, title disputes, and real estate development. This area of law is essential for individuals, investors, developers, and businesses involved in real estate to protect their interests and ensure compliance with local, state, and federal regulations.\r\n\r\nIn the United States, real estate law involves complex documentation and procedures, such as drafting purchase agreements, conducting title searches, handling closings, and resolving disputes related to ownership or property boundaries. Issues such as eminent domain, environmental regulations, and property taxes also play significant roles in this field.\r\n\r\nAt Dunamis Law Firm, we provide comprehensive legal services to clients involved in all aspects of real estate. Whether you are a first-time homebuyer, a seasoned investor, a landlord, or a developer, our attorneys offer skilled advice and representation tailored to your needs. We help negotiate contracts, review leases, address zoning concerns, and resolve disputes efficiently to protect your property rights.\r\n\r\nOur real estate lawyers understand the importance of clear and thorough documentation to prevent costly litigation. We assist clients with title examinations, help secure financing arrangements, and guide clients through complex real estate closings. For landlords and tenants, we handle eviction proceedings, lease negotiations, and compliance with landlord-tenant laws.\r\n\r\nDunamis Law Firm also supports clients with commercial real estate matters, including acquisitions, dispositions, leasing, and development projects. We work closely with real estate professionals, financial institutions, and government agencies to provide sound legal advice that aligns with your business objectives.\r\n\r\nIn today’s dynamic real estate market, having trusted legal counsel is critical to safeguarding your investments and resolving conflicts. Dunamis Law Firm is committed to delivering practical, proactive, and effective legal solutions to clients across the USA.",
+        "seo_title": "Experienced Real Estate Lawyers | Dunamis Law Firm, New York, USA",
+        "seo_description": "Comprehensive legal services for property transactions, leasing, disputes, and development with Dunamis Law Firm’s real estate attorneys.",
+        "seo_keywords": "real estate law, property lawyer, landlord-tenant law, real estate transactions, title disputes, New York, Dunamis Law Firm",
+        "flaticon": "house"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2025-06-13T10:28:44.836Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "attorney"
+        ],
+        "object_id": "1",
+        "object_repr": "Rurl Amos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2025-06-13T10:44:34.899Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "attorney"
+        ],
+        "object_id": "2",
+        "object_repr": "Darcy Alec",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2025-06-13T11:44:26.745Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "attorney"
+        ],
+        "object_id": "1",
+        "object_repr": "Rurl Amos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Bio\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2025-06-13T12:43:28.940Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "attorney"
+        ],
+        "object_id": "1",
+        "object_repr": "Rurl Amos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Bio\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2025-06-13T12:50:16.836Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "attorney"
+        ],
+        "object_id": "2",
+        "object_repr": "Darcy Alec",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Practice area\", \"Bio\", \"Meta title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2025-06-13T14:57:23.303Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "service"
+        ],
+        "object_id": "1",
+        "object_repr": "Family Law",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2025-06-13T14:59:55.685Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "service"
+        ],
+        "object_id": "1",
+        "object_repr": "Family Law",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Seo title\", \"Seo description\", \"Seo keywords\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2025-06-13T15:01:42.452Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "service"
+        ],
+        "object_id": "1",
+        "object_repr": "Family Law",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Flaticon\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2025-06-13T15:04:49.965Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "service"
+        ],
+        "object_id": "1",
+        "object_repr": "Family Law",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2025-06-13T15:08:44.353Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "service"
+        ],
+        "object_id": "2",
+        "object_repr": "Personal Injury",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2025-06-13T15:11:31.157Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "service"
+        ],
+        "object_id": "3",
+        "object_repr": "Business Law",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2025-06-13T15:14:30.423Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "service"
+        ],
+        "object_id": "4",
+        "object_repr": "Criminal Law",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2025-06-13T15:16:50.226Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "service"
+        ],
+        "object_id": "5",
+        "object_repr": "Education Law",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2025-06-13T15:19:37.029Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "service"
+        ],
+        "object_id": "6",
+        "object_repr": "Real Estate Law",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2025-06-14T11:43:42.796Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "attorney"
+        ],
+        "object_id": "1",
+        "object_repr": "Rurl Amos",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2025-06-14T11:47:20.912Z",
+        "user": [
+            "admin"
+        ],
+        "content_type": [
+            "frontend",
+            "attorney"
+        ],
+        "object_id": "2",
+        "object_repr": "Darcy Alec",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+    }
+}
+]
