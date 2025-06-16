@@ -310,7 +310,7 @@ def contact(request):
             'address': address,
             'message': message
         }
-        receiver = email
+        receiver = "contact@dunamislawfirm.com"
         send_email_async(subject, template, context, receiver)
 
         messages.success(request, 'Form is submitted successfuly, we will get back to you as soon as possible.')
@@ -357,7 +357,7 @@ def contact_attorney(request):
             'address': address,
             'message': message
         }
-        receiver = email
+        receiver = "contact@dunamislawfirm.com"
         send_email_async(subject, template, context, receiver)
 
 

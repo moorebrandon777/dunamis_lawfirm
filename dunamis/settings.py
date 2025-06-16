@@ -186,3 +186,10 @@ LOGGING = {
         },
     },
 }
+
+
+if not DEBUG:
+    SECURE_SSL_REDIRECT = True
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+else:
+    SECURE_SSL_REDIRECT = False  # Optional, just to be explicit
