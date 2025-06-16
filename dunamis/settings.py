@@ -59,7 +59,7 @@ SITE_ID = 1
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
-    'middleware.redirects.ForceWWWAndHTTPSMiddleware',
+    'dunamis.middleware.redirects.ForceWWWAndHTTPSMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
