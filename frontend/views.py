@@ -3,7 +3,8 @@ from django.shortcuts import get_object_or_404, render, redirect
 from django.urls import reverse
 from django.contrib import messages
 from django.views.decorators.http import require_POST
-from django.http import HttpResponseRedirect
+from django.http import HttpResponseRedirect, HttpResponse
+
 
 from .models import Attorney, Service
 from .utils import build_breadcrumbs
@@ -116,8 +117,17 @@ def about(request):
     return render(request, 'frontend/about.html', context)
 
 
+# def robots_txt(request):
+#     return render(request, 'frontend/robots.txt', content_type='text/plain')
+
 def robots_txt(request):
-    return render(request, 'frontend/robots.txt', content_type='text/plain')
+    content = """User-agent: *
+Disallow:
+
+Sitemap: https://www.dunamislawfirm.com/sitemap.xml
+"""
+    return HttpResponse(content, content_type='text/plain')
+
 
 
 def attorneys_list(request):
