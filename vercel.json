@@ -23,17 +23,5 @@
       "src": "/(.*)",
       "dest": "dunamis/wsgi.py"
     }
-  ],
-  "redirects": [
-    {
-      "source": "http://dunamislawfirm.com/:path*",
-      "destination": "https://www.dunamislawfirm.com/:path*",
-      "permanent": true
-    },
-    {
-      "source": "https://dunamislawfirm.com/:path*",
-      "destination": "https://www.dunamislawfirm.com/:path*",
-      "permanent": true
-    }
   ]
 }
